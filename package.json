@@ -1,5 +1,5 @@
 {
-    "name": "djs",
+    "name": "djs-v13-music-bot-handler",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -8,11 +8,14 @@
         "test": "nodemon index.js"
     },
     "keywords": [],
-    "author": "",
+    "author": "Recolxy",
     "license": "ISC",
     "dependencies": {
         "discord.js": "^13.2.0",
-        "glob": "^7.1.7",
-        "mongoose": "^6.0.2"
+        "glob": "^7.2.0",
+        "mongoose": "^6.0.12",
+        "discord-player": "^5.1.0",
+        "@discordjs/opus": "^0.6.0",
+        "chalk": "^4.1.2"
     }
 }
